@@ -9,7 +9,7 @@
 */
 
 System.Console.WriteLine("Введите число");
-string number = Console.ReadLine();
+string number = Console.ReadLine() ??"";
 
 int len = number.Length;
 
